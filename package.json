@@ -1,0 +1,19 @@
+{
+  "name": "sdc-service-load-balancer",
+  "version": "1.0.0",
+  "description": "a load balancer for video recommendations module",
+  "author": "Chen",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "newrelic": "^4.13.1",
+    "request": "^2.88.0"
+  }
+}
