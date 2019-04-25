@@ -12,7 +12,7 @@ const handler = (req, res) => {
   current = (current + 1) % servers.length;
 };
 
-const server = express().get('*', handler);
+const server = express().get('*', handler).post('/graphql', handler);
 
 const PORT = process.env.PORT || 3002;
 
